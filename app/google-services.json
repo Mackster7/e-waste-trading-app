@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "545534769389",
+    "firebase_url": "https://reecleone.firebaseio.com",
+    "project_id": "reecleone",
+    "storage_bucket": "reecleone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545534769389:android:4185804d75c1f4f6",
+        "android_client_info": {
+          "package_name": "com.example.reecle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545534769389-fanp6fllsdrr8gs085r5valkmdmdsvl6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.reecle",
+            "certificate_hash": "f83b5a8de1a42e8366e863601907452ac044d5ee"
+          }
+        },
+        {
+          "client_id": "545534769389-2u2vtev3t8upc3agk6vncugr5vir0d8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM8KjLdPD5KNNOhtAgBFBcye43ZN1WteM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545534769389-2u2vtev3t8upc3agk6vncugr5vir0d8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

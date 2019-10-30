@@ -15,11 +15,11 @@
         android:layout_height="72dp"
         android:ems="10"
         android:hint="Enter Email"
-
         android:inputType="textEmailAddress"
         android:textColor="@color/colorAccent"
         android:textColorHint="@color/colorPrimary"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        tools:ignore="Autofill,HardcodedText" />
 
     <EditText
         android:id="@+id/editText2"
@@ -30,16 +30,23 @@
         android:hint="Enter Password"
         android:inputType="textPassword"
         android:textColorHint="@color/colorPrimary"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="80dp"
         android:background="@drawable/round"
         android:text="Login"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
@@ -49,7 +56,8 @@
         android:onClick="int2"
         android:text="Register"
 
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
     <ProgressBar
         android:id="@+id/progressBar"
         android:layout_width="30dp"
@@ -57,5 +65,8 @@
         android:foreground="@color/colorPrimary"
         android:layout_gravity="center|bottom"
         android:layout_marginBottom="20dp"
-        android:visibility="gone" />
+        android:visibility="gone"
+        tools:ignore="UnusedAttribute" />
+
+
 </LinearLayout>

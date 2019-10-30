@@ -81,7 +81,6 @@ public class Main2Activity extends AppCompatActivity {
 
                                 }
 
-                                // ...
                             }
                         });
 

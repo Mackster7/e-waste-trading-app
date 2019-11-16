@@ -11,13 +11,12 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class thankyou extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_thankyou);
         getSupportActionBar().hide();
-
+ //timming
         Timer timer = new Timer();
 
         timer.schedule(new TimerTask() {

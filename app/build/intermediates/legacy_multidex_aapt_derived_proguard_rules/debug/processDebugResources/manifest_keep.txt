@@ -1,0 +1,4 @@
+# Referenced at C:\Users\imaco\OneDrive\Desktop\Reecle\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:20
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at C:\Users\imaco\OneDrive\Desktop\Reecle\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:20
+-keep class androidx.multidex.MultiDexApplication { <init>(); }

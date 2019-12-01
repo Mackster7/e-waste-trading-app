@@ -1,18 +1,19 @@
 package com.example.reecle;
 
 class Product {
-    private String name, doorno, street,area,city;
+    private String name, doorno, street,area,city,pincode;
 
     public Product(){
 
     }
 
-    public Product(String name, String area, String doorno, String street,String city) {
+    public Product(String name, String area, String doorno, String street,String city,String pincode) {
         this.name = name;
         this.area = area;
         this.doorno = doorno;
         this.street = street;
         this.city =city;
+        this.pincode=pincode;
     }
 
     public String getName() {
@@ -31,6 +32,9 @@ class Product {
     }
     public String getCity() {
         return city;
+    }
+    public String getPincode() {
+        return pincode;
     }
 
 }

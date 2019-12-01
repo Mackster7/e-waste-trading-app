@@ -11,14 +11,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="361dp"
-        tools:layout_editor_absoluteY="310dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-175dp">
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_marginTop="270dp"
             android:layout_width="match_parent"
-            android:layout_height="123dp"
-            app:srcCompat="@drawable/thank" />
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/tq" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

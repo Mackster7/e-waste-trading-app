@@ -19,7 +19,7 @@ import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 public class location extends AppCompatActivity {
-    EditText name,street,area,doorno,city;
+    EditText name,street,area,doorno,city,pincode;
     Button pickup;
     private FirebaseFirestore db;
 
@@ -34,7 +34,7 @@ public class location extends AppCompatActivity {
         doorno = findViewById(R.id.doorno);
         pickup = (Button) findViewById(R.id.pickup);
         city =findViewById(R.id.city);
-
+        pincode=findViewById(R.id.pincode);
 
         db = FirebaseFirestore.getInstance();
 
@@ -47,22 +47,24 @@ public class location extends AppCompatActivity {
                 String area1 = area.getText().toString().trim();
                 String doorno1 = doorno.getText().toString().trim();
                 String city1 = city.getText().toString().trim();
+                String pincode1 = city.getText().toString().trim();
 
 
-                if (TextUtils.isEmpty(name1)&&TextUtils.isEmpty(street1)&&TextUtils.isEmpty(area1)&&TextUtils.isEmpty(doorno1)&&TextUtils.isEmpty(city1)) {
-                    Toast.makeText(location.this, "Please Enter All Filels", Toast.LENGTH_SHORT).show();
+                if (TextUtils.isEmpty(name1)&&TextUtils.isEmpty(street1)&&TextUtils.isEmpty(area1)&&TextUtils.isEmpty(doorno1)&&TextUtils.isEmpty(city1)&&TextUtils.isEmpty(pincode1)) {
+                    Toast.makeText(location.this, "Please Enter All Fields", Toast.LENGTH_SHORT).show();
                     return;
                 }
-
-                if (!validateInputs(name1 , street1 , area1 , doorno1, city1)) {
+               if (!validateInputs(name1 , street1 , area1 , doorno1, city1, pincode1)) {
 
                     CollectionReference dbProducts = db.collection("products");
 
                     Product product = new Product(
                             name1 ,
                             street1 ,
-                            doorno1 ,city1,
-                            area1
+                            doorno1 ,
+                            city1,
+                            area1,
+                            pincode1
                     );
 
                     dbProducts.add(product)
@@ -85,7 +87,7 @@ public class location extends AppCompatActivity {
 
             }
 
-            private boolean validateInputs(String name1 , String street1 , String area1 , String doorno1,String city1) {
+            private boolean validateInputs(String name1 , String street1 , String area1 , String doorno1,String city1,String pincode1) {
                 return false;
             }
         });

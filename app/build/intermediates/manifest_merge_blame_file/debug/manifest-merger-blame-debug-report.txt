@@ -45,206 +45,207 @@
 27-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:10:9-54
 28        android:supportsRtl="true"
 28-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:11:9-35
-29        android:theme="@style/AppTheme" >
-29-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:12:9-40
-30        <activity android:name="com.example.reecle.thankyou" />
-30-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:14:9-55
-30-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:14:19-43
-31        <activity android:name="com.example.reecle.location" />
-31-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:15:9-46
-31-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:15:19-43
-32        <activity android:name="com.example.reecle.laptop" />
-32-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:16:9-44
-32-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:16:19-41
-33        <activity android:name="com.example.reecle.smartphone" />
-33-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:17:9-48
-33-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:17:19-45
-34        <activity android:name="com.example.reecle.signup" />
-34-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:18:9-44
-34-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:18:19-41
-35        <activity android:name="com.example.reecle.Main2Activity" />
-35-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:19:9-51
-35-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:19:19-48
-36        <activity android:name="com.example.reecle.MainActivity" >
-36-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:20:9-26:20
-36-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:20:19-47
-37            <intent-filter>
-37-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:21:13-25:29
-38                <action android:name="android.intent.action.MAIN" />
-38-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:22:17-69
-38-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:22:25-66
-39
-40                <category android:name="android.intent.category.LAUNCHER" />
-40-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:24:17-77
-40-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:24:27-74
-41            </intent-filter>
-42        </activity>
-43
-44        <service
-44-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b25ca93bf7eab88a8067e79601a0dd04\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:17:9-23:19
-45            android:name="com.google.firebase.components.ComponentDiscoveryService"
-45-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b25ca93bf7eab88a8067e79601a0dd04\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:18:13-84
-46            android:directBootAware="true"
-46-->[com.google.firebase:firebase-common:19.2.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\61c47ccf880e44b6c829a8c9a48ba20d\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
-47            android:exported="false" >
-47-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b25ca93bf7eab88a8067e79601a0dd04\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:19:13-37
-48            <meta-data
-48-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b25ca93bf7eab88a8067e79601a0dd04\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:20:13-22:85
-49                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-49-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b25ca93bf7eab88a8067e79601a0dd04\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:21:17-111
-50                android:value="com.google.firebase.components.ComponentRegistrar" />
-50-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b25ca93bf7eab88a8067e79601a0dd04\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:22:17-82
-51            <meta-data
-51-->[com.google.firebase:firebase-database:19.2.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\463da60977420e86b3b59aa784a805a0\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
-52                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-52-->[com.google.firebase:firebase-database:19.2.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\463da60977420e86b3b59aa784a805a0\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
-53                android:value="com.google.firebase.components.ComponentRegistrar" />
-53-->[com.google.firebase:firebase-database:19.2.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\463da60977420e86b3b59aa784a805a0\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
-54            <meta-data
-54-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:36:13-38:85
-55                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-55-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:37:17-109
-56                android:value="com.google.firebase.components.ComponentRegistrar" />
-56-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:38:17-82
-57            <meta-data
-57-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\3e3cdd4175eb3827483caa9c75f911c9\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
-58                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-58-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\3e3cdd4175eb3827483caa9c75f911c9\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
-59                android:value="com.google.firebase.components.ComponentRegistrar" />
-59-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\3e3cdd4175eb3827483caa9c75f911c9\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
-60            <meta-data
-60-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\6cfe46f408152b0cf1be5d6c31bb25ab\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
-61                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-61-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\6cfe46f408152b0cf1be5d6c31bb25ab\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
-62                android:value="com.google.firebase.components.ComponentRegistrar" />
-62-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\6cfe46f408152b0cf1be5d6c31bb25ab\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
-63        </service>
-64
-65        <activity
-65-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:24:9-31:50
-66            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-66-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:25:13-85
-67            android:excludeFromRecents="true"
-67-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:26:13-46
-68            android:exported="true"
-68-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:27:13-36
-69            android:launchMode="singleTask"
-69-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:28:13-44
-70            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-70-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:29:13-102
-71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-71-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:30:13-72
-72        <activity
-72-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\5ed713a0ff70c0fa26615302da95891f\play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
-73            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-73-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\5ed713a0ff70c0fa26615302da95891f\play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
-74            android:excludeFromRecents="true"
-74-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\5ed713a0ff70c0fa26615302da95891f\play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
-75            android:exported="false"
-75-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\5ed713a0ff70c0fa26615302da95891f\play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
-76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-76-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\5ed713a0ff70c0fa26615302da95891f\play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
-77        <!--
-78            Service handling Google Sign-In user revocation. For apps that do not integrate with
-79            Google Sign-In, this service will never be started.
-80        -->
-81        <service
-81-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\5ed713a0ff70c0fa26615302da95891f\play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
-82            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-82-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\5ed713a0ff70c0fa26615302da95891f\play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
-83            android:exported="true"
-83-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\5ed713a0ff70c0fa26615302da95891f\play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
-84            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-84-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\5ed713a0ff70c0fa26615302da95891f\play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
-85
-86        <receiver
-86-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\6cfe46f408152b0cf1be5d6c31bb25ab\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
-87            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-87-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\6cfe46f408152b0cf1be5d6c31bb25ab\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
-88            android:exported="true"
-88-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\6cfe46f408152b0cf1be5d6c31bb25ab\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
-89            android:permission="com.google.android.c2dm.permission.SEND" >
-89-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\6cfe46f408152b0cf1be5d6c31bb25ab\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
-90            <intent-filter>
-90-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\6cfe46f408152b0cf1be5d6c31bb25ab\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
-91                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-91-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\6cfe46f408152b0cf1be5d6c31bb25ab\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
-91-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\6cfe46f408152b0cf1be5d6c31bb25ab\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
-92            </intent-filter>
-93        </receiver>
-94
-95        <provider
-95-->[com.google.firebase:firebase-common:19.2.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\61c47ccf880e44b6c829a8c9a48ba20d\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
-96            android:name="com.google.firebase.provider.FirebaseInitProvider"
-96-->[com.google.firebase:firebase-common:19.2.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\61c47ccf880e44b6c829a8c9a48ba20d\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
-97            android:authorities="com.example.reecle.firebaseinitprovider"
-97-->[com.google.firebase:firebase-common:19.2.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\61c47ccf880e44b6c829a8c9a48ba20d\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
-98            android:exported="false"
-98-->[com.google.firebase:firebase-common:19.2.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\61c47ccf880e44b6c829a8c9a48ba20d\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
-99            android:initOrder="100" />
-99-->[com.google.firebase:firebase-common:19.2.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\61c47ccf880e44b6c829a8c9a48ba20d\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
-100
-101        <activity
-101-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\c6ed24259e187418524151309c91ad64\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-102            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-102-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\c6ed24259e187418524151309c91ad64\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-103            android:exported="false"
-103-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\c6ed24259e187418524151309c91ad64\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-104            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-104-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\c6ed24259e187418524151309c91ad64\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-105
-106        <receiver
-106-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
-107            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-107-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
-108            android:enabled="true"
-108-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
-109            android:exported="false" >
-109-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
-110        </receiver>
-111        <receiver
-111-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
-112            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-112-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
-113            android:enabled="true"
-113-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
-114            android:exported="true"
-114-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
-115            android:permission="android.permission.INSTALL_PACKAGES" >
-115-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
-116            <intent-filter>
-116-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
-117                <action android:name="com.android.vending.INSTALL_REFERRER" />
-117-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
-117-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
-118            </intent-filter>
-119        </receiver>
-120
-121        <service
-121-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
-122            android:name="com.google.android.gms.measurement.AppMeasurementService"
-122-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
-123            android:enabled="true"
-123-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
-124            android:exported="false" />
-124-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
-125        <service
-125-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
-126            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-126-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
-127            android:enabled="true"
-127-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
-128            android:exported="false"
-128-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
-129            android:permission="android.permission.BIND_JOB_SERVICE" />
-129-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
-130
-131        <meta-data
-131-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\c9412f6a31502bfcaeda7ded3f8c9c80\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-132            android:name="com.google.android.gms.version"
-132-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\c9412f6a31502bfcaeda7ded3f8c9c80\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-133            android:value="@integer/google_play_services_version" />
-133-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\c9412f6a31502bfcaeda7ded3f8c9c80\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-134    </application>
-135
-136</manifest>
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:12:9-40
+31        <activity android:name="com.example.reecle.thankyou" />
+31-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:14:9-55
+31-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:14:19-43
+32        <activity android:name="com.example.reecle.location" />
+32-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:15:9-46
+32-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:15:19-43
+33        <activity android:name="com.example.reecle.laptop" />
+33-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:16:9-44
+33-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:16:19-41
+34        <activity android:name="com.example.reecle.smartphone" />
+34-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:17:9-48
+34-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:17:19-45
+35        <activity android:name="com.example.reecle.signup" />
+35-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:18:9-44
+35-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:18:19-41
+36        <activity android:name="com.example.reecle.Main2Activity" />
+36-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:19:9-51
+36-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:19:19-48
+37        <activity android:name="com.example.reecle.MainActivity" >
+37-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:20:9-26:20
+37-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:20:19-47
+38            <intent-filter>
+38-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:21:13-25:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:22:17-69
+39-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:22:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:24:17-77
+41-->C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:24:27-74
+42            </intent-filter>
+43        </activity>
+44
+45        <service
+45-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b25ca93bf7eab88a8067e79601a0dd04\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:17:9-23:19
+46            android:name="com.google.firebase.components.ComponentDiscoveryService"
+46-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b25ca93bf7eab88a8067e79601a0dd04\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:18:13-84
+47            android:directBootAware="true"
+47-->[com.google.firebase:firebase-common:19.2.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\61c47ccf880e44b6c829a8c9a48ba20d\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
+48            android:exported="false" >
+48-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b25ca93bf7eab88a8067e79601a0dd04\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:19:13-37
+49            <meta-data
+49-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b25ca93bf7eab88a8067e79601a0dd04\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:20:13-22:85
+50                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+50-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b25ca93bf7eab88a8067e79601a0dd04\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:21:17-111
+51                android:value="com.google.firebase.components.ComponentRegistrar" />
+51-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b25ca93bf7eab88a8067e79601a0dd04\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:22:17-82
+52            <meta-data
+52-->[com.google.firebase:firebase-database:19.2.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\463da60977420e86b3b59aa784a805a0\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+53                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+53-->[com.google.firebase:firebase-database:19.2.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\463da60977420e86b3b59aa784a805a0\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+54                android:value="com.google.firebase.components.ComponentRegistrar" />
+54-->[com.google.firebase:firebase-database:19.2.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\463da60977420e86b3b59aa784a805a0\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+55            <meta-data
+55-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:36:13-38:85
+56                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+56-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:37:17-109
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:38:17-82
+58            <meta-data
+58-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\3e3cdd4175eb3827483caa9c75f911c9\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
+59                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+59-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\3e3cdd4175eb3827483caa9c75f911c9\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\3e3cdd4175eb3827483caa9c75f911c9\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
+61            <meta-data
+61-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\6cfe46f408152b0cf1be5d6c31bb25ab\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+62                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+62-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\6cfe46f408152b0cf1be5d6c31bb25ab\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\6cfe46f408152b0cf1be5d6c31bb25ab\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+64        </service>
+65
+66        <activity
+66-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:24:9-31:50
+67            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+67-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:25:13-85
+68            android:excludeFromRecents="true"
+68-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:26:13-46
+69            android:exported="true"
+69-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:27:13-36
+70            android:launchMode="singleTask"
+70-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:28:13-44
+71            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+71-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:29:13-102
+72            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+72-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:30:13-72
+73        <activity
+73-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\5ed713a0ff70c0fa26615302da95891f\play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+74            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+74-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\5ed713a0ff70c0fa26615302da95891f\play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+75            android:excludeFromRecents="true"
+75-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\5ed713a0ff70c0fa26615302da95891f\play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+76            android:exported="false"
+76-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\5ed713a0ff70c0fa26615302da95891f\play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\5ed713a0ff70c0fa26615302da95891f\play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+78        <!--
+79            Service handling Google Sign-In user revocation. For apps that do not integrate with
+80            Google Sign-In, this service will never be started.
+81        -->
+82        <service
+82-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\5ed713a0ff70c0fa26615302da95891f\play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+83            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+83-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\5ed713a0ff70c0fa26615302da95891f\play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+84            android:exported="true"
+84-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\5ed713a0ff70c0fa26615302da95891f\play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+85            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+85-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\5ed713a0ff70c0fa26615302da95891f\play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+86
+87        <receiver
+87-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\6cfe46f408152b0cf1be5d6c31bb25ab\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+88            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+88-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\6cfe46f408152b0cf1be5d6c31bb25ab\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+89            android:exported="true"
+89-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\6cfe46f408152b0cf1be5d6c31bb25ab\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+90            android:permission="com.google.android.c2dm.permission.SEND" >
+90-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\6cfe46f408152b0cf1be5d6c31bb25ab\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+91            <intent-filter>
+91-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\6cfe46f408152b0cf1be5d6c31bb25ab\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+92                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+92-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\6cfe46f408152b0cf1be5d6c31bb25ab\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+92-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\6cfe46f408152b0cf1be5d6c31bb25ab\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+93            </intent-filter>
+94        </receiver>
+95
+96        <provider
+96-->[com.google.firebase:firebase-common:19.2.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\61c47ccf880e44b6c829a8c9a48ba20d\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
+97            android:name="com.google.firebase.provider.FirebaseInitProvider"
+97-->[com.google.firebase:firebase-common:19.2.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\61c47ccf880e44b6c829a8c9a48ba20d\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
+98            android:authorities="com.example.reecle.firebaseinitprovider"
+98-->[com.google.firebase:firebase-common:19.2.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\61c47ccf880e44b6c829a8c9a48ba20d\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
+99            android:exported="false"
+99-->[com.google.firebase:firebase-common:19.2.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\61c47ccf880e44b6c829a8c9a48ba20d\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
+100            android:initOrder="100" />
+100-->[com.google.firebase:firebase-common:19.2.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\61c47ccf880e44b6c829a8c9a48ba20d\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
+101
+102        <activity
+102-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\c6ed24259e187418524151309c91ad64\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+103-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\c6ed24259e187418524151309c91ad64\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+104            android:exported="false"
+104-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\c6ed24259e187418524151309c91ad64\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+105-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\c6ed24259e187418524151309c91ad64\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+106
+107        <receiver
+107-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+108            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+108-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+109            android:enabled="true"
+109-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+110            android:exported="false" >
+110-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+111        </receiver>
+112        <receiver
+112-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+113            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+113-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+114            android:enabled="true"
+114-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+115            android:exported="true"
+115-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+116            android:permission="android.permission.INSTALL_PACKAGES" >
+116-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+117            <intent-filter>
+117-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+118                <action android:name="com.android.vending.INSTALL_REFERRER" />
+118-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+118-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+119            </intent-filter>
+120        </receiver>
+121
+122        <service
+122-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+123            android:name="com.google.android.gms.measurement.AppMeasurementService"
+123-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+124            android:enabled="true"
+124-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+125            android:exported="false" />
+125-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+126        <service
+126-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+127            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+127-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+128            android:enabled="true"
+128-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+129            android:exported="false"
+129-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+130            android:permission="android.permission.BIND_JOB_SERVICE" />
+130-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f850f032f32e5a254783332061c80ee1\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+131
+132        <meta-data
+132-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\c9412f6a31502bfcaeda7ded3f8c9c80\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+133            android:name="com.google.android.gms.version"
+133-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\c9412f6a31502bfcaeda7ded3f8c9c80\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+134            android:value="@integer/google_play_services_version" />
+134-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\c9412f6a31502bfcaeda7ded3f8c9c80\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+135    </application>
+136
+137</manifest>

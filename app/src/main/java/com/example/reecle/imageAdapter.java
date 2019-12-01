@@ -10,8 +10,16 @@ import android.widget.ImageView;
 public class imageAdapter extends BaseAdapter {
 
     private Context mContext;
-    public int[] imageArray= {R.drawable.imagesa,R.drawable.imagesb,R.drawable.imagesc,
-            R.drawable.cam,R.drawable.gey,R.drawable.other
+    public int[] imageArray= {R.drawable.smartphone,
+            R.drawable.laptop,
+            R.drawable.tablet,
+            R.drawable.camera,
+            R.drawable.tv,
+            R.drawable.ac,
+            R.drawable.fridge,
+            R.drawable.desktop,
+            R.drawable.washingmachine
+
     };
 
     public imageAdapter(Context mContext) {

@@ -46,6 +46,7 @@ public class smartphone extends AppCompatActivity {
         AutoCompleteTextView oneamp,twoamp;
         String model;
         DatabaseReference rootRef,demoRef,demoref;
+    private ProgressBar progressBar;
 
         @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,6 +69,9 @@ public class smartphone extends AppCompatActivity {
             final LinearLayout layout2 = (LinearLayout) findViewById(R.id.layout2);
             layout2.setVisibility(View.GONE);
         fetch=(Button) findViewById(R.id.fetchDocument);
+
+        progressBar = (ProgressBar) findViewById(R.id.progressBar);
+
         fetch.setVisibility(View.VISIBLE);
         accept=(Button)findViewById(R.id.button2);
         content=(TextView) findViewById(R.id.content);
@@ -104,10 +108,15 @@ public class smartphone extends AppCompatActivity {
                 demoRef = rootRef.child(name);
                 demoref=demoRef.child(model);
 
-                if (TextUtils.isEmpty(name)&&TextUtils.isEmpty(model)) {
-                    Toast.makeText(smartphone.this, "Please Enter Make and Model", Toast.LENGTH_SHORT).show();
+                if (TextUtils.isEmpty(name)) {
+                    Toast.makeText(smartphone.this, "Please Enter Brand", Toast.LENGTH_SHORT).show();
                     return;
                 }
+                if (TextUtils.isEmpty(model)) {
+                    Toast.makeText(smartphone.this, "Please Enter Model", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                progressBar.setVisibility(View.VISIBLE);
                 demoref.child("price").addListenerForSingleValueEvent(new ValueEventListener() {
 
                     @Override
@@ -115,8 +124,16 @@ public class smartphone extends AppCompatActivity {
                         //progressBar.setVisibility(View.VISIBLE);
                         String value = dataSnapshot.getValue(String.class);
                         content.setText(value);
-                        fetch.setVisibility(View.GONE);
-                        layout2.setVisibility(View.VISIBLE);
+                        if(value==null){
+                            progressBar.setVisibility(View.GONE);
+                            Toast.makeText(smartphone.this, "Please Select model with appropriate brand", Toast.LENGTH_SHORT).show();
+                        }
+                        else
+                        {
+                            progressBar.setVisibility(View.GONE);
+                            fetch.setVisibility(View.GONE);
+                            layout2.setVisibility(View.VISIBLE);
+                        }
                     }
 
                     @Override
@@ -135,5 +152,7 @@ public class smartphone extends AppCompatActivity {
 
     }
 
+
 }
+
 

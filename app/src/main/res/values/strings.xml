@@ -1,4 +1,63 @@
 <resources>
     <string name="app_name">Reecle</string>
     <string name="model">Model</string>
+    <string-array name="ac">
+        <item>Select Brand</item>
+        <item>Samsung</item>
+        <item>Voltas</item>
+        <item>Daikin</item>
+        <item>Haier</item>
+        <item>Blue Star</item>
+        <item>Lloyd</item>
+        <item>Carrier</item>
+        <item>Hitachi</item>
+        <item>Mitsubishi</item>
+        <item>Onida</item>
+        <item>Godrej</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="tv">
+        <item>Select Brand</item>
+        <item>Samsung</item>
+        <item>LG </item>
+        <item>Sony </item>
+        <item>TCL TV</item>
+        <item>BPL</item>
+        <item>Sansui</item>
+        <item>Onida</item>
+        <item>Mi TV</item>
+        <item>Videocon</item>
+        <item>Panasonic</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="fridge">
+        <item>Select Brand</item>
+        <item>Samsung</item>
+        <item>Voltas</item>
+        <item>Daikin</item>
+        <item>Haier</item>
+        <item>Blue Star</item>
+        <item>Lloyd</item>
+        <item>Carrier</item>
+        <item>Hitachi</item>
+        <item>Mitsubishi</item>
+        <item>Onida</item>
+        <item>Godrej</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="wm">
+        <item>Select Brand</item>
+        <item>Samsung</item>
+        <item>LG </item>
+        <item>Bosch </item>
+        <item>Haier</item>
+        <item>Whirlpool</item>
+        <item>Godrej</item>
+        <item>Onida</item>
+        <item>IFB</item>
+        <item>Whirlpool</item>
+        <item>Videocon</item>
+        <item>Other</item>
+    </string-array>
+
 </resources>

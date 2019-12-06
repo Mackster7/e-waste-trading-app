@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tablet">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ewaste"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <AutoCompleteTextView
+            android:id="@+id/one"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:hint="Brand"
+            tools:ignore="HardcodedText" />
+
+        <AutoCompleteTextView
+            android:id="@+id/two"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:hint="Model"
+            tools:ignore="HardcodedText" />
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|bottom"
+            android:visibility="gone"
+            tools:ignore="UnusedAttribute"/>
+        <Button
+            android:id="@+id/fetchDocument"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/round"
+            android:text="confirm"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="408dp"
+            android:background="@drawable/recyclelogo"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/round"
+                android:text="Accept"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="157dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="255dp"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="38dp"
+                tools:ignore="RtlHardcoded,SpUsage" />
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

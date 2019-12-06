@@ -30,7 +30,13 @@
             android:layout_marginTop="0dp"
             android:hint="Model"
             tools:ignore="HardcodedText" />
-
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|bottom"
+            android:visibility="gone"
+            tools:ignore="UnusedAttribute"/>
         <Button
             android:id="@+id/fetchDocument"
             android:layout_width="350dp"

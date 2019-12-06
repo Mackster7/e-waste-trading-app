@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:ignore="ExtraText"
+    android:layout_height="match_parent"
+    tools:context=".ac">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="ScrollViewCount,UselessParent">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:textColor="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_marginLeft="4dp"
+            android:orientation="vertical"
+            tools:ignore="RtlHardcoded,UselessLeaf">
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:background="#f0f0ef"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:hapticFeedbackEnabled="true" />
+
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="6dp"
+
+                android:text="AC type :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+
+        <RadioGroup
+
+            android:id="@+id/radioGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="66dp"
+                android:layout_marginTop="2dp"
+                android:checked="false"
+                android:text="Split"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="66dp"
+                android:layout_marginTop="2dp"
+                android:checked="false"
+                android:text="Window"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:textColor="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="6dp"
+            android:text="Capacity :"
+            android:textSize="20dp"
+            tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+
+        <RadioGroup
+
+            android:id="@+id/radioGroup1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:checked="false"
+                android:text="0.75 Ton"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:checked="false"
+                android:text="1 Ton"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:checked="false"
+                android:text="1.5 Ton"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/radioButton6"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:checked="false"
+                android:text="2 Ton"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="6dp"
+            android:text="Components Missing :"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+        <RadioGroup
+
+            android:id="@+id/radioGroup2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioButton7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="66dp"
+                android:layout_marginTop="2dp"
+                android:checked="false"
+                android:text="Indoor unit"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <RadioButton
+                android:id="@+id/radioButton8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="67dp"
+                android:layout_marginTop="2dp"
+                android:checked="false"
+                android:text="Outdoor unit"
+                android:textColorHighlight="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <RadioButton
+                android:id="@+id/radioButton9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="66dp"
+                android:layout_marginTop="2dp"
+                android:checked="false"
+                android:text="Compresser"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+            <RadioButton
+                android:id="@+id/radioButton10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="66dp"
+                android:layout_marginTop="2dp"
+                android:checked="false"
+                android:text="Condenser Mesh"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:textColor="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="6dp"
+            android:text="AC Accessories :"
+            android:textSize="20dp"
+            tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+        <RadioGroup
+
+            android:id="@+id/radioGroup3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioButton11"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:checked="false"
+                android:text="stabilizer"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/radioButton12"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:checked="false"
+                android:text="absent"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round"
+            android:text="Submit"
+            tools:ignore="HardcodedText" />
+
+      </LinearLayout>
+    </ScrollView>
+</LinearLayout>

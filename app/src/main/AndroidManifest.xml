@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.reecle">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,7 +13,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".thankyou"></activity>
+        <activity android:name=".washingmachine"></activity>
+        <activity android:name=".ac" />
+        <activity android:name=".refridgerator" />
+        <activity android:name=".tv" />
+        <activity android:name=".desktop" />
+        <activity android:name=".tablet" />
+        <activity android:name=".thankyou" />
         <activity android:name=".location" />
         <activity android:name=".laptop" />
         <activity android:name=".smartphone" />
@@ -25,7 +33,5 @@
             </intent-filter>
         </activity>
     </application>
-
-    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

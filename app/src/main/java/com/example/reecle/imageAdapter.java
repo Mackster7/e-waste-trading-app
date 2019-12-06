@@ -13,7 +13,7 @@ public class imageAdapter extends BaseAdapter {
     public int[] imageArray= {R.drawable.smartphone,
             R.drawable.laptop,
             R.drawable.tablet,
-            R.drawable.camera,
+           // R.drawable.camera,
             R.drawable.tv,
             R.drawable.ac,
             R.drawable.fridge,

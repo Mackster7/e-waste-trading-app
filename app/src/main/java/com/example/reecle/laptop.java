@@ -2,6 +2,7 @@ package com.example.reecle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -10,6 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -21,13 +23,17 @@ import com.google.firebase.database.ValueEventListener;
 
 public class laptop extends AppCompatActivity {
 
-    final String[] brands = {"Apple","Acer","Dell","lenovo","hp"};
-    final String[] series ={"mac book","mac book air","3 series","5 series","7 series"};
+    final String[] brands = {"Apple","Acer","Dell","Lenovo","HP"};
+    final String[] series ={"HP EliteBook" , "HP 520 Notebook" , "HP Envy" , "HP Pavilion","HP ProBook", "Voodoo Envy", "HP ZBook",
+            "Mac book air","Mac book mini","Mac book pro","Dell Vostro","Dell XPS","Dell Latitude","Dell Inspiron laptops","Dell Adamo",
+            "Lenovo IdeaPad","Lenovo ThinkPad","Acer Aspire","Acer Nitro"
+    };
     Button fetch,accept;
     TextView content;
     AutoCompleteTextView oneamp,twoamp;
     String model;
     DatabaseReference rootRef,demoRef,demoref;
+    private ProgressBar progressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,21 +41,20 @@ public class laptop extends AppCompatActivity {
         setContentView(R.layout.activity_smartphone);
         getSupportActionBar().setTitle("Laptop details");
 
+
         ArrayAdapter<String> adapter = new ArrayAdapter<String>
                 (this, android.R.layout.simple_dropdown_item_1line, brands);
         ArrayAdapter<String> adapter1 = new ArrayAdapter<String>
                 (this, android.R.layout.simple_dropdown_item_1line, series);
-           /* ArrayAdapter<String> adapter2 = new ArrayAdapter<String>
-                    (this, android.R.layout.simple_dropdown_item_1line, series1);
-            ArrayAdapter<String> adapter3 = new ArrayAdapter<String>
-                    (this, android.R.layout.simple_dropdown_item_1line, series2);
-            ArrayAdapter<String> adapter4 = new ArrayAdapter<String>
-                    (this, android.R.layout.simple_dropdown_item_1line, series3);*/
+
         final LinearLayout layout1 = (LinearLayout) findViewById(R.id.layout1);
         layout1.setVisibility(View.VISIBLE);
         final LinearLayout layout2 = (LinearLayout) findViewById(R.id.layout2);
         layout2.setVisibility(View.GONE);
         fetch=(Button) findViewById(R.id.fetchDocument);
+
+        progressBar = (ProgressBar) findViewById(R.id.progressBar);
+
         fetch.setVisibility(View.VISIBLE);
         accept=(Button)findViewById(R.id.button2);
         content=(TextView) findViewById(R.id.content);
@@ -64,12 +69,13 @@ public class laptop extends AppCompatActivity {
         });
         String val=oneamp.getText().toString().trim();
         twoamp=(AutoCompleteTextView) findViewById(R.id.two);
+        twoamp.setText(val.toString());
         twoamp.setThreshold(0);//will start working from first character
         twoamp.setAdapter(adapter1);
         twoamp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                twoamp.showDropDown();;
+                twoamp.showDropDown();
             }
         });
         model=twoamp.getText().toString();
@@ -86,10 +92,16 @@ public class laptop extends AppCompatActivity {
                 demoRef = rootRef.child(name);
                 demoref=demoRef.child(model);
 
-                if (TextUtils.isEmpty(name)&&TextUtils.isEmpty(model)) {
-                    Toast.makeText(laptop.this, "Please Enter Make and Model", Toast.LENGTH_SHORT).show();
+                if (TextUtils.isEmpty(name)) {
+                    Toast.makeText(laptop.this, "Please Enter Brand", Toast.LENGTH_SHORT).show();
                     return;
                 }
+                if (TextUtils.isEmpty(model)) {
+                    Toast.makeText(laptop.this, "Please Enter Model", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                progressBar.setVisibility(View.VISIBLE);
                 demoref.child("price").addListenerForSingleValueEvent(new ValueEventListener() {
 
                     @Override
@@ -97,8 +109,16 @@ public class laptop extends AppCompatActivity {
                         //progressBar.setVisibility(View.VISIBLE);
                         String value = dataSnapshot.getValue(String.class);
                         content.setText(value);
-                        fetch.setVisibility(View.GONE);
-                        layout2.setVisibility(View.VISIBLE);
+                        if(value==null){
+                            progressBar.setVisibility(View.GONE);
+                            Toast.makeText(laptop.this, "Please Select model with appropriate brand.", Toast.LENGTH_SHORT).show();
+                        }
+                        else
+                        {
+                            progressBar.setVisibility(View.GONE);
+                            fetch.setVisibility(View.GONE);
+                            layout2.setVisibility(View.VISIBLE);
+                        }
                     }
 
                     @Override
@@ -118,3 +138,4 @@ public class laptop extends AppCompatActivity {
     }
 
 }
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/price"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+
+        <TextView
+            android:id="@+id/content"
+            tools:ignore="RtlHardcoded,SpUsage"
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="218dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="38dp" />
+
+        <Button
+            android:id="@+id/Accept"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/round"
+            android:text="Accept"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+</LinearLayout>

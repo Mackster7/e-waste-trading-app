@@ -25,7 +25,7 @@ public class desktop extends AppCompatActivity {
     private RadioButton monitorRadio,storageSizeRadio,chipsetRadio,ramRadio,accesoriesRadio;
     private Button submit,accept;
     DatabaseReference rootRef,demoRef;
-   // private ScrollView scrollView;
+
     TextView content;
     int price;
 
@@ -60,7 +60,7 @@ public class desktop extends AppCompatActivity {
             public void onClick(View v) {
 
 
-                demoRef = rootRef.child("desktop/");
+                demoRef = rootRef.child("OTHER APPLIANCES/DESKTOP/");
                 demoRef.child("price").addListenerForSingleValueEvent(new ValueEventListener() {
 
                     @Override

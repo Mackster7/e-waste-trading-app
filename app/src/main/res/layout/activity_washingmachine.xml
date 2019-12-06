@@ -72,7 +72,7 @@
                     android:layout_marginLeft="66dp"
                     android:layout_marginTop="2dp"
                     android:checked="false"
-                    android:text="Automatic Top Load"
+                    android:text="Automatic Top-Load"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="18sp"
                     tools:ignore="HardcodedText,RtlHardcoded" />
@@ -84,7 +84,7 @@
                     android:layout_marginLeft="66dp"
                     android:layout_marginTop="2dp"
                     android:checked="false"
-                    android:text="Automatic Front Load"
+                    android:text="Automatic Front-Load"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="18sp"
                     tools:ignore="HardcodedText,RtlHardcoded" />

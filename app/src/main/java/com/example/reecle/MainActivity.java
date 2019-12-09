@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if (task.isSuccessful()) {
-                                    startActivity(new Intent(getApplicationContext(), signup.class));
+                                    startActivity(new Intent(getApplicationContext(), navigation.class));
                                 } else {
                                     Toast.makeText(MainActivity.this, "login failed or user not registered", Toast.LENGTH_SHORT).show();
                                 }

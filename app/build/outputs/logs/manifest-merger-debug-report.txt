@@ -1,14 +1,19 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:2:1-37:12
+ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\19ed3525dea1525b7ebca9ebde583893\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\819dd7dd87920b36c2f25c43c1e76f6f\jetified-navigation-ui-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\3df2fd68af0236fb7b1a24eeed8b503b\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f8ccfb448ba3545203b2c9319e236e39\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\c77d2d7d2a36a76ceff3be3a10064bf2\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-firestore:21.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b25ca93bf7eab88a8067e79601a0dd04\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\463da60977420e86b3b59aa784a805a0\firebase-database-19.2.0\AndroidManifest.xml:15:1-38:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b9799d70f08d6212f2bb67aeb995639d\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\3fbfc390707d5cd6c573bfe792add2b1\navigation-fragment-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\968008e42ff023b08d09d11c4effc8d1\lifecycle-extensions-2.1.0\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\350ae6e75ada395668d60c13ad23a490\firebase-core-17.2.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\2b1bcabae6ee9c47b0643990b00d5cab\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth:19.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:17:1-42:12
@@ -36,9 +41,12 @@ MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\imaco\.gradle\caches\tra
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\2e03c2f92899d54dc944727484d22c64\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\77f38ede50d86bb3bde02e7424569968\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\2215b7515dd4dbb7a4b19b0c72864742\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f73554407891e5f42b5a27997e9f0ce3\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\a2812e63738b1c43d88b94e2e3e83098\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\acff7bcdcd7da8e99250712627973f8c\transition-1.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\8b9f96df1a219288d5310a3f5ee0b475\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\d98c89cf50bdd03f81aa09467d0c2ed3\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\518ce4dad50414f5f4436470dabb756a\navigation-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f6b0e9e64ea6c67524e0872a7fe85f3e\activity-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\1d2af3d333d4c3a45bf618d6c3d7e76d\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\be4c5dac795a59b41993a7b022ac3383\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -47,38 +55,42 @@ MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\imaco\
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\30989f83181402fab157072c421048ee\customview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\7fc233ef99bb8b4c500b664971fcda3e\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\02b68bf10ec20fa11ccb9afa9bf02988\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\435b266bd6e0ed5048a5e257589b48e3\navigation-common-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\56b6cdfbd80af409835a31a4470c49f0\core-1.1.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\7e6ebd92550f66c9083ebcf4be850998\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b6362d95ebb099144b9b7e3d2ca2ff19\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\35111811781ca491abca62b7d00445bc\lifecycle-process-2.1.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\dc53bd80f2cab5c0ab10b13217dd5482\lifecycle-service-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\a1ff7fca937c69d0a5a696d95188aa63\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\73a73d07f73ad6f93e8d35053c9a00de\lifecycle-livedata-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4c91cee815f07b31b7d4dad5a5fb45f2\lifecycle-livedata-core-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\2600027c5ef2a15aa6ba1f1ccd7ba17d\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\be0257405f31b1e356e15dc58d0cb3de\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\2cbf8d7cb802848068f0a2d09c242a96\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\bc22db016844aa20c758d4921775e519\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\1ee046e737eeea944b5f0bbf60408319\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\dc00afe98654b60ddd616a33528e20cf\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\a1ff7fca937c69d0a5a696d95188aa63\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\2cbf8d7cb802848068f0a2d09c242a96\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\be0257405f31b1e356e15dc58d0cb3de\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\89b91c90415f820a35378d852e8c8a88\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\9951022edd0c1aa1cd274f086f532952\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b630fccbdc2ad6089a310917acf4dfc1\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\07a10a0cead9a447f78103e8d38f9b9b\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\5351ba69d53acfbae58340a136c409ac\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\dc00afe98654b60ddd616a33528e20cf\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\a1c42ee6a43c1fec1cd0f12b759d080b\firebase-database-collection-17.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\ebd322c0583c6030709dae3e64a76843\protolite-well-known-types-17.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\67e9f1b819e44694c17fe36b0eb68630\grpc-android-1.21.0\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:2:1-41:12
 	package
 		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:4:5-33
 		INJECTED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:2:1-37:12
+		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:2:1-37:12
+		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:2:11-69
@@ -101,13 +113,17 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:
 	android:name
 		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:8:5-35:19
+ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:8:5-39:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\3df2fd68af0236fb7b1a24eeed8b503b\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\3df2fd68af0236fb7b1a24eeed8b503b\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\c77d2d7d2a36a76ceff3be3a10064bf2\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\c77d2d7d2a36a76ceff3be3a10064bf2\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-firestore:21.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b25ca93bf7eab88a8067e79601a0dd04\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.firebase:firebase-firestore:21.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b25ca93bf7eab88a8067e79601a0dd04\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\463da60977420e86b3b59aa784a805a0\firebase-database-19.2.0\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\463da60977420e86b3b59aa784a805a0\firebase-database-19.2.0\AndroidManifest.xml:28:5-36:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\968008e42ff023b08d09d11c4effc8d1\lifecycle-extensions-2.1.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\968008e42ff023b08d09d11c4effc8d1\lifecycle-extensions-2.1.0\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\350ae6e75ada395668d60c13ad23a490\firebase-core-17.2.1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\350ae6e75ada395668d60c13ad23a490\firebase-core-17.2.1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-auth:19.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:23:5-40:19
@@ -148,6 +164,8 @@ MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\imac
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\c9412f6a31502bfcaeda7ded3f8c9c80\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\56b6cdfbd80af409835a31a4470c49f0\core-1.1.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\56b6cdfbd80af409835a31a4470c49f0\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\35111811781ca491abca62b7d00445bc\lifecycle-process-2.1.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\35111811781ca491abca62b7d00445bc\lifecycle-process-2.1.0\AndroidManifest.xml:22:5-28:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\1ee046e737eeea944b5f0bbf60408319\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\1ee046e737eeea944b5f0bbf60408319\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
@@ -166,74 +184,86 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\im
 		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
 		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.example.reecle.navigation
+ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:16:9-19:68
+	android:label
+		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:18:13-62
+	android:theme
+		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:19:13-56
+	android:name
+		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:17:13-39
 activity#com.example.reecle.washingmachine
-ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:16:9-61
+ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:20:9-52
 	android:name
-		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:16:19-49
+		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:20:19-49
 activity#com.example.reecle.ac
-ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:17:9-40
+ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:21:9-40
 	android:name
-		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:17:19-37
+		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:21:19-37
 activity#com.example.reecle.refridgerator
-ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:18:9-51
+ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:22:9-51
 	android:name
-		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:18:19-48
+		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:22:19-48
 activity#com.example.reecle.tv
-ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:19:9-40
+ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:23:9-40
 	android:name
-		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:19:19-37
+		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:23:19-37
 activity#com.example.reecle.desktop
-ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:20:9-45
+ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:24:9-45
 	android:name
-		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:20:19-42
+		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:24:19-42
 activity#com.example.reecle.tablet
-ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:21:9-44
+ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:25:9-44
 	android:name
-		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:21:19-41
+		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:25:19-41
 activity#com.example.reecle.thankyou
-ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:22:9-46
+ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:26:9-46
 	android:name
-		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:22:19-43
+		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:26:19-43
 activity#com.example.reecle.location
-ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:23:9-46
+ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:27:9-46
 	android:name
-		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:23:19-43
+		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:27:19-43
 activity#com.example.reecle.laptop
-ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:24:9-44
+ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:28:9-44
 	android:name
-		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:24:19-41
+		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:28:19-41
 activity#com.example.reecle.smartphone
-ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:25:9-48
+ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:29:9-48
 	android:name
-		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:25:19-45
+		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:29:19-45
 activity#com.example.reecle.signup
-ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:26:9-44
+ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:30:9-44
 	android:name
-		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:26:19-41
+		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:30:19-41
 activity#com.example.reecle.Main2Activity
-ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:27:9-51
+ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:31:9-51
 	android:name
-		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:27:19-48
+		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:31:19-48
 activity#com.example.reecle.MainActivity
-ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:28:9-34:20
+ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:32:9-38:20
 	android:name
-		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:28:19-47
+		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:32:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:29:13-33:29
+ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:33:13-37:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:30:17-69
+ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:34:17-69
 	android:name
-		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:30:25-66
+		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:34:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:32:17-77
+ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:36:17-77
 	android:name
-		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:32:27-74
+		ADDED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml:36:27-74
 uses-sdk
 INJECTED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\imaco\OneDrive\Desktop\Reecle\app\src\main\AndroidManifest.xml
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\19ed3525dea1525b7ebca9ebde583893\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\19ed3525dea1525b7ebca9ebde583893\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.navigation:navigation-ui:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\819dd7dd87920b36c2f25c43c1e76f6f\jetified-navigation-ui-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\819dd7dd87920b36c2f25c43c1e76f6f\jetified-navigation-ui-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\3df2fd68af0236fb7b1a24eeed8b503b\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\3df2fd68af0236fb7b1a24eeed8b503b\material-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f8ccfb448ba3545203b2c9319e236e39\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f8ccfb448ba3545203b2c9319e236e39\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\c77d2d7d2a36a76ceff3be3a10064bf2\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
@@ -242,6 +272,12 @@ MERGED from [com.google.firebase:firebase-firestore:21.2.1] C:\Users\imaco\.grad
 MERGED from [com.google.firebase:firebase-firestore:21.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b25ca93bf7eab88a8067e79601a0dd04\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\463da60977420e86b3b59aa784a805a0\firebase-database-19.2.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\463da60977420e86b3b59aa784a805a0\firebase-database-19.2.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b9799d70f08d6212f2bb67aeb995639d\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b9799d70f08d6212f2bb67aeb995639d\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\3fbfc390707d5cd6c573bfe792add2b1\navigation-fragment-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\3fbfc390707d5cd6c573bfe792add2b1\navigation-fragment-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\968008e42ff023b08d09d11c4effc8d1\lifecycle-extensions-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\968008e42ff023b08d09d11c4effc8d1\lifecycle-extensions-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\350ae6e75ada395668d60c13ad23a490\firebase-core-17.2.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\350ae6e75ada395668d60c13ad23a490\firebase-core-17.2.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\2b1bcabae6ee9c47b0643990b00d5cab\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
@@ -296,12 +332,18 @@ MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\imaco\.gradl
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\77f38ede50d86bb3bde02e7424569968\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\2215b7515dd4dbb7a4b19b0c72864742\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\2215b7515dd4dbb7a4b19b0c72864742\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f73554407891e5f42b5a27997e9f0ce3\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f73554407891e5f42b5a27997e9f0ce3\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\a2812e63738b1c43d88b94e2e3e83098\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\a2812e63738b1c43d88b94e2e3e83098\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\acff7bcdcd7da8e99250712627973f8c\transition-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\acff7bcdcd7da8e99250712627973f8c\transition-1.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\8b9f96df1a219288d5310a3f5ee0b475\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\8b9f96df1a219288d5310a3f5ee0b475\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\d98c89cf50bdd03f81aa09467d0c2ed3\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\d98c89cf50bdd03f81aa09467d0c2ed3\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\518ce4dad50414f5f4436470dabb756a\navigation-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\518ce4dad50414f5f4436470dabb756a\navigation-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f6b0e9e64ea6c67524e0872a7fe85f3e\activity-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\f6b0e9e64ea6c67524e0872a7fe85f3e\activity-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\1d2af3d333d4c3a45bf618d6c3d7e76d\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -318,32 +360,40 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\imac
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\7fc233ef99bb8b4c500b664971fcda3e\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\02b68bf10ec20fa11ccb9afa9bf02988\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\02b68bf10ec20fa11ccb9afa9bf02988\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\435b266bd6e0ed5048a5e257589b48e3\navigation-common-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\435b266bd6e0ed5048a5e257589b48e3\navigation-common-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\56b6cdfbd80af409835a31a4470c49f0\core-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\56b6cdfbd80af409835a31a4470c49f0\core-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\7e6ebd92550f66c9083ebcf4be850998\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\7e6ebd92550f66c9083ebcf4be850998\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b6362d95ebb099144b9b7e3d2ca2ff19\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b6362d95ebb099144b9b7e3d2ca2ff19\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\35111811781ca491abca62b7d00445bc\lifecycle-process-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\35111811781ca491abca62b7d00445bc\lifecycle-process-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\dc53bd80f2cab5c0ab10b13217dd5482\lifecycle-service-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\dc53bd80f2cab5c0ab10b13217dd5482\lifecycle-service-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\a1ff7fca937c69d0a5a696d95188aa63\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\a1ff7fca937c69d0a5a696d95188aa63\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\73a73d07f73ad6f93e8d35053c9a00de\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\73a73d07f73ad6f93e8d35053c9a00de\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4c91cee815f07b31b7d4dad5a5fb45f2\lifecycle-livedata-core-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\4c91cee815f07b31b7d4dad5a5fb45f2\lifecycle-livedata-core-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\2600027c5ef2a15aa6ba1f1ccd7ba17d\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\2600027c5ef2a15aa6ba1f1ccd7ba17d\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\be0257405f31b1e356e15dc58d0cb3de\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\be0257405f31b1e356e15dc58d0cb3de\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\2cbf8d7cb802848068f0a2d09c242a96\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\2cbf8d7cb802848068f0a2d09c242a96\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\bc22db016844aa20c758d4921775e519\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\bc22db016844aa20c758d4921775e519\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\1ee046e737eeea944b5f0bbf60408319\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\1ee046e737eeea944b5f0bbf60408319\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\dc00afe98654b60ddd616a33528e20cf\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\dc00afe98654b60ddd616a33528e20cf\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\a1ff7fca937c69d0a5a696d95188aa63\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\a1ff7fca937c69d0a5a696d95188aa63\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\2cbf8d7cb802848068f0a2d09c242a96\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\2cbf8d7cb802848068f0a2d09c242a96\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\be0257405f31b1e356e15dc58d0cb3de\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\be0257405f31b1e356e15dc58d0cb3de\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\89b91c90415f820a35378d852e8c8a88\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\89b91c90415f820a35378d852e8c8a88\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\9951022edd0c1aa1cd274f086f532952\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\9951022edd0c1aa1cd274f086f532952\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b630fccbdc2ad6089a310917acf4dfc1\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\b630fccbdc2ad6089a310917acf4dfc1\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\07a10a0cead9a447f78103e8d38f9b9b\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\07a10a0cead9a447f78103e8d38f9b9b\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\5351ba69d53acfbae58340a136c409ac\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\5351ba69d53acfbae58340a136c409ac\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\dc00afe98654b60ddd616a33528e20cf\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\dc00afe98654b60ddd616a33528e20cf\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\a1c42ee6a43c1fec1cd0f12b759d080b\firebase-database-collection-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\a1c42ee6a43c1fec1cd0f12b759d080b\firebase-database-collection-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\ebd322c0583c6030709dae3e64a76843\protolite-well-known-types-17.0.0\AndroidManifest.xml:7:5-9:41
@@ -566,3 +616,13 @@ ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\imaco
 		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\c9412f6a31502bfcaeda7ded3f8c9c80\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\c9412f6a31502bfcaeda7ded3f8c9c80\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\35111811781ca491abca62b7d00445bc\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\35111811781ca491abca62b7d00445bc\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\35111811781ca491abca62b7d00445bc\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\35111811781ca491abca62b7d00445bc\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\imaco\.gradle\caches\transforms-2\files-2.1\35111811781ca491abca62b7d00445bc\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79

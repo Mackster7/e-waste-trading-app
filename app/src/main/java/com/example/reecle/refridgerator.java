@@ -35,7 +35,6 @@ public class refridgerator extends AppCompatActivity implements AdapterView.OnIt
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-
         setContentView(R.layout.activity_refridgerator);
         getSupportActionBar().setTitle("Refridgerator details");
 
@@ -154,12 +153,17 @@ public class refridgerator extends AppCompatActivity implements AdapterView.OnIt
                             content.setText(String.valueOf("Rs" + price + "/-"));
                             accept = (Button) findViewById(R.id.Accept);
 
-
                             accept.setOnClickListener(new View.OnClickListener() {
                                 @Override
                                 public void onClick(View view) {
-                                    startActivity(new Intent(getApplicationContext() , location.class));
-                                }
+                                    String brand = spinner.getSelectedItem().toString().trim();
+                                    String category = "Refridgerator";
+                                    String price=content.getText().toString().trim();
+                                    Intent intent = new Intent(getApplicationContext(), location.class);
+                                    intent.putExtra("brand",brand);
+                                    intent.putExtra("category",category);
+                                    intent.putExtra("price",price);
+                                    startActivity(intent);                                }
                             });
 
                         }

@@ -468,6 +468,7 @@ attr radioButtonStyle
 attr ratingBarStyle
 attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
+attr recyclerViewStyle
 attr reverseLayout
 attr rippleColor
 attr scopeUris
@@ -1119,7 +1120,6 @@ drawable design_snackbar_background
 drawable desktop
 drawable ewaste
 drawable ewaste01
-drawable ewaste02
 drawable fridge
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
@@ -1155,6 +1155,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable one
+drawable ourprocessimage
 drawable price
 drawable recyclelogo
 drawable round
@@ -1454,11 +1455,7 @@ id textView3
 id textView4
 id textView5
 id textView6
-id text_gallery
 id text_input_password_toggle
-id text_share
-id text_slideshow
-id text_tools
 id texthint
 id textinput_counter
 id textinput_error
@@ -1558,6 +1555,7 @@ layout activity_tv
 layout activity_washingmachine
 layout app_bar_navigation
 layout button_rounded
+layout contactus
 layout content_navigation
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -1574,11 +1572,10 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
-layout fragment_gallery
+layout fragment_aboutus
 layout fragment_home
-layout fragment_share
-layout fragment_slideshow
-layout fragment_tools
+layout fragment_logout
+layout fragment_ourprocess
 layout layout2
 layout main2
 layout mtrl_layout_snackbar
@@ -2272,7 +2269,7 @@ styleable Navigator android_label android_id
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
-styleable RecyclerView android_orientation android_descendantFocusability fastScrollEnabled fastScrollHorizontalThumbDrawable fastScrollHorizontalTrackDrawable fastScrollVerticalThumbDrawable fastScrollVerticalTrackDrawable layoutManager reverseLayout spanCount stackFromEnd
+styleable RecyclerView android_orientation android_clipToPadding android_descendantFocusability fastScrollEnabled fastScrollHorizontalThumbDrawable fastScrollHorizontalTrackDrawable fastScrollVerticalThumbDrawable fastScrollVerticalTrackDrawable layoutManager reverseLayout spanCount stackFromEnd
 styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon

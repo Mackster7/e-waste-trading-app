@@ -38,9 +38,7 @@ import java.util.HashMap;
 public class smartphone extends AppCompatActivity {
     final String[] brands = {"apple","mi","nokia","realme","samsung"};
     final String[] series ={"a4"," mix 3","note 5pro","note4","1100","3310","nokia 3","nokia 6","nokia 8","j2","j7","note 6","s7","s6 edge","iphone 4","iphone 5","iphone 6","iphone 7","iphone 8","iphone x"};
-    /*final String[] series1 ={"1100","3310","nokia 3","nokia 6","nokia 8"};
-    final String[] series2 ={"iphone 4","iphone 5","iphone 6","iphone 7","iphone 8","iphone x"};
-    final String[] series3 ={"j2","j7","note 6","s7","s6 edge"};*/
+
         Button fetch,accept;
         TextView content;
         AutoCompleteTextView oneamp,twoamp;
@@ -58,12 +56,7 @@ public class smartphone extends AppCompatActivity {
                     (this, android.R.layout.simple_dropdown_item_1line, brands);
             ArrayAdapter<String> adapter1 = new ArrayAdapter<String>
                     (this, android.R.layout.simple_dropdown_item_1line, series);
-           /* ArrayAdapter<String> adapter2 = new ArrayAdapter<String>
-                    (this, android.R.layout.simple_dropdown_item_1line, series1);
-            ArrayAdapter<String> adapter3 = new ArrayAdapter<String>
-                    (this, android.R.layout.simple_dropdown_item_1line, series2);
-            ArrayAdapter<String> adapter4 = new ArrayAdapter<String>
-                    (this, android.R.layout.simple_dropdown_item_1line, series3);*/
+
             final LinearLayout layout1 = (LinearLayout) findViewById(R.id.layout1);
             layout1.setVisibility(View.VISIBLE);
             final LinearLayout layout2 = (LinearLayout) findViewById(R.id.layout2);
@@ -146,7 +139,14 @@ public class smartphone extends AppCompatActivity {
         accept.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), location.class));
+                String brand = oneamp.getText().toString().trim();
+                String category = "Smartphone";
+                String price=content.getText().toString().trim();
+                Intent intent = new Intent(getApplicationContext(), location.class);
+                intent.putExtra("brand",brand);
+                intent.putExtra("category",category);
+                intent.putExtra("price",price);
+                startActivity(intent);
             }
         });
 

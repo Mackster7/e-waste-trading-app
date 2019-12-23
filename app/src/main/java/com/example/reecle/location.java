@@ -54,7 +54,10 @@ public class location extends AppCompatActivity {
                 String doorno1 = doorno.getText().toString().trim();
                 String city1 = city.getText().toString().trim();
                 String pincode1 = pincode.getText().toString().trim();
-
+                Intent intent = getIntent();
+                String brand1 = intent.getStringExtra("brand");
+                String category1 = intent.getStringExtra("category");
+                String price1=intent.getStringExtra("price");
 
                 if (TextUtils.isEmpty(name1)&&TextUtils.isEmpty(street1)&&TextUtils.isEmpty(area1)&&TextUtils.isEmpty(doorno1)&&TextUtils.isEmpty(city1)&&TextUtils.isEmpty(pincode1)) {
                     Toast.makeText(location.this, "Please Enter All Fields", Toast.LENGTH_SHORT).show();
@@ -65,7 +68,7 @@ public class location extends AppCompatActivity {
                 }
 
                 else{progressBar.setVisibility(View.VISIBLE);
-                    if (!validateInputs(name1 , street1 , area1 , doorno1, city1, pincode1)) {
+                    if (!validateInputs(name1 , street1 , area1 , doorno1, city1, pincode1 ,category1 ,brand1,price1)) {
 
                     CollectionReference dbProducts = db.collection("products");
 
@@ -75,7 +78,10 @@ public class location extends AppCompatActivity {
                             doorno1 ,
                             city1,
                             area1,
-                            pincode1
+                            pincode1,
+                            category1,
+                            brand1,
+                            price1
                     );
 
                     dbProducts.add(product)
@@ -98,7 +104,7 @@ public class location extends AppCompatActivity {
 
             }
 
-            private boolean validateInputs(String name1 , String street1 , String area1 , String doorno1,String city1,String pincode1) {
+            private boolean validateInputs(String name1 , String street1 , String area1 , String doorno1,String city1,String pincode1,String category1,String brand1,String price1) {
                 return false;
             }
         });

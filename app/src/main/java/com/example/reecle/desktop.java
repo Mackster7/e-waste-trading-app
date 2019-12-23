@@ -143,8 +143,14 @@ public class desktop extends AppCompatActivity {
                             accept.setOnClickListener(new View.OnClickListener() {
                                 @Override
                                 public void onClick(View view) {
-                                    startActivity(new Intent(getApplicationContext() , location.class));
-                                }
+                                    String brand ="-";
+                                    String category = "Desktop";
+                                    String price=content.getText().toString().trim();
+                                    Intent intent = new Intent(getApplicationContext(), location.class);
+                                    intent.putExtra("brand",brand);
+                                    intent.putExtra("category",category);
+                                    intent.putExtra("price",price);
+                                    startActivity(intent);                                }
                             });
 
                         }

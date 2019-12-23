@@ -141,10 +141,16 @@ public class ac extends AppCompatActivity implements AdapterView.OnItemSelectedL
                             accept.setOnClickListener(new View.OnClickListener() {
                                 @Override
                                 public void onClick(View view) {
-                                    startActivity(new Intent(getApplicationContext() , location.class));
+                                    String brand = spinner.getSelectedItem().toString().trim();
+                                    String category = "AC";
+                                    String price=content.getText().toString().trim();
+                                    Intent intent = new Intent(getApplicationContext(), location.class);
+                                    intent.putExtra("brand",brand);
+                                    intent.putExtra("category",category);
+                                    intent.putExtra("price",price);
+                                    startActivity(intent);
                                 }
                             });
-
                         }
                     }
 

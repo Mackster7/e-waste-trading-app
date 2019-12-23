@@ -13,27 +13,27 @@
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.reecle.ui.gallery.GalleryFragment"
+        android:name="com.example.reecle.ui.our_process.ourProcessFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_ourProcess" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.example.reecle.ui.slideshow.SlideshowFragment"
+        android:name="com.example.reecle.ui.logout.logoutFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_logout" />
 
     <fragment
         android:id="@+id/nav_tools"
-        android:name="com.example.reecle.ui.tools.ToolsFragment"
+        android:name="com.example.reecle.ui.about_us.aboutusFragment"
         android:label="@string/menu_tools"
-        tools:layout="@layout/fragment_tools" />
+        tools:layout="@layout/fragment_aboutus" />
 
     <fragment
         android:id="@+id/nav_share"
-        android:name="com.example.reecle.ui.share.ShareFragment"
+        android:name="com.example.reecle.ui.contactus.contactusFragment"
         android:label="@string/menu_share"
-        tools:layout="@layout/fragment_share" />
+        tools:layout="@layout/contactus" />
 
     <fragment
         android:id="@+id/nav_send"
